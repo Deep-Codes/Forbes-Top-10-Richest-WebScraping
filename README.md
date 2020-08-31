@@ -17,8 +17,8 @@ pip3 install tabulate
 You need Webdriver installed : [Download Here](https://sites.google.com/a/chromium.org/chromedriver/downloads)
 
 ```bash
-# Make sure to Have Webdriver a this path
-PATH = "/Users/deepankarbhade/Dev/chromedriver"
+# Make sure to Have Webdriver extracted at a specific path and add the path
+PATH = "PATH_OF_THE_DRIVER_FILE"
 driver = webdriver.Chrome(PATH)
 ```
 
